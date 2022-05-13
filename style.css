@@ -1,0 +1,52 @@
+.card-one:hover{
+   border: 1px solid orange;
+   transform: translate(20px);
+}
+.card-one{
+    transition: .5s;
+    overflow: hidden;
+}
+.card-one img{
+    transition: .5s;
+    
+}
+.card-one img:hover{
+    transform: rotate(360deg);
+    
+}
+.card-two:hover{
+    border: 1px solid orange;
+    transform: translate(-20px);
+ }
+ .card-two{
+     transition: .5s;
+     overflow: hidden;
+ }
+ .card-two img{
+     transition: .5s;
+     
+ }
+ .card-two img:hover{
+     transform: scale(1.2);
+     
+ }
+ .card-three:hover{
+    border: 1px solid orange;
+    transform: translateY(20px);
+ }
+ .card-three{
+     transition: .5s;
+     overflow: hidden;
+ }
+ .card-three img{
+     transition: .5s;
+     
+ }
+ .card-three img:hover{
+     transform: rotate(-90deg);
+     
+ }
+.bipul img{
+height: 500px;
+margin-top: 135px;
+}
